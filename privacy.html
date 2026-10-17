@@ -4,27 +4,22 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Guardia · Privacy</title>
+<link rel="icon" href="assets/icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Zilla+Slab:wght@600;700&display=swap">
-<style>
-  :root { --stock: #F2CB2F; --ink: #17150F; --plate: #DDB31E; }
-  body { margin: 0; background: var(--stock); color: var(--ink); font: 600 18px/1.5 'Zilla Slab', Georgia, serif; }
-  main { max-width: 680px; margin: 0 auto; padding: 32px 20px 64px; }
-  h1 { font: 40px/1.1 'Alfa Slab One', Georgia, serif; text-transform: uppercase; margin: 0 0 8px; }
-  .rule { height: 6px; background: var(--ink); margin-bottom: 24px; }
-  h2 { font: 700 22px/1.3 'Zilla Slab', Georgia, serif; margin: 28px 0 4px; }
-  p { margin: 0; }
-  nav { display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 32px; }
-  a { color: var(--ink); }
-  .updated { margin-top: 28px; }
-  hr { border: 0; height: 6px; background: var(--ink); margin: 48px 0; }
-</style>
+<link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-<main>
-<nav><a href="./">Guardia</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="support.html">Support</a><a href="#es">Español</a></nav>
-<h1>Privacy</h1>
-<div class="rule"></div>
+<header class="masthead">
+  <a class="mark" href="./"><img src="assets/icon.png" alt=""><span>Guardia</span></a>
+  <nav><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="support.html">Support</a></nav>
+</header>
+<hr class="rule">
+<main class="doc">
+<h1 class="wood">Privacy</h1>
+<hr class="rule">
+<p class="to-es"><a href="#es" lang="es">Leer en español</a></p>
 <h2>The camera</h2>
 <p>Guardia uses the front camera to find your body and hands, so it can count your punches. Your phone does this itself. Guardia does not record, store, or send any video or photo.</p>
 <h2>What stays on your phone</h2>
@@ -38,10 +33,9 @@
 <h2>Contact</h2>
 <p>Guardia is made by Alexandru Tirim. Write to alexandrutirim@gmail.com with any question about your data.</p>
 <p class="updated">Last updated October 16, 2026</p>
-<hr>
-<section id="es" lang="es">
-<h1>Privacidad</h1>
-<div class="rule"></div>
+<section id="es" class="lang" lang="es">
+<h1 class="wood">Privacidad</h1>
+<hr class="rule">
 <h2>La cámara</h2>
 <p>Guardia usa la cámara frontal para encontrar tu cuerpo y tus manos, y así contar tus golpes. Tu teléfono lo hace por sí mismo. Guardia no graba, no guarda y no envía ningún video ni foto.</p>
 <h2>Lo que queda en tu teléfono</h2>
@@ -57,5 +51,10 @@
 <p class="updated">Última actualización: 16 de octubre de 2026</p>
 </section>
 </main>
+<hr class="rule">
+<footer class="footer">
+  <span>Guardia: Boxing Coach</span>
+  <nav><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="support.html">Support</a></nav>
+</footer>
 </body>
 </html>
